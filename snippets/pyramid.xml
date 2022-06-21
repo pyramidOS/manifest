@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="pyramid"
-           fetch="ssh://git@github.com/pyramidOS"
+           fetch="https://github.com/pyramidOS"
            revision="12.1" />
 
     <remote  name="github"

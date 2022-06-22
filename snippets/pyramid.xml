@@ -30,6 +30,7 @@
     <project path="external/lz4" name="external_lz4" remote="pyramid" />
     <project path="external/zstd" name="external_zstd" remote="pyramid" />
     <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pyramid" />
+    <project path="external/tinycompress" name="external_tinycompress" remote="pyramid" />
 
 
     <!-- Vendor repositories -->

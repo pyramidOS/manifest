@@ -43,6 +43,7 @@
     <project path="system/sepolicy" name="system_sepolicy" remote="pyramid" />
     <project path="system/security" name="system_security" remote="pyramid" /> 
     <project path="system/update_engine" name="system_update_engine" remote="pyramid" />
+    <project path="system/vold" name="system_vold" remote="pyramid" />
 
     <!-- SEPolicy repositories -->
     <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pyramid" />

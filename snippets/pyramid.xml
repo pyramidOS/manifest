@@ -32,6 +32,8 @@
     <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pyramid" />
     <project path="external/tinycompress" name="external_tinycompress" remote="pyramid" />
     <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" remote="pyramid" />
+    <project path="external/themelib" name="external_themelib" remote="pyramid" />
+    <project path="external/colorkt" name="external_colorkt" remote="pyramid" />
 
 
     <!-- Vendor repositories -->

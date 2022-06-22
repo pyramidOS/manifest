@@ -34,6 +34,7 @@
     <project path="external/AndroidSystemBlur" name="external_AndroidSystemBlur" remote="pyramid" />
     <project path="external/themelib" name="external_themelib" remote="pyramid" />
     <project path="external/colorkt" name="external_colorkt" remote="pyramid" />
+    <project path="external/selinux" name="external_selinux" remote="pyramid" />
 
 
     <!-- Vendor repositories -->

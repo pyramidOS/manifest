@@ -48,6 +48,7 @@
     <project path="system/update_engine" name="system_update_engine" remote="pyramid" />
     <project path="system/vold" name="system_vold" remote="pyramid" />
     <project path="system/bpf" name="system_bpf" remote="pyramid" />
+    <project path="system/apex" name="system_apex" remote="pyramid" />
 
     <!-- SEPolicy repositories -->
     <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pyramid" />

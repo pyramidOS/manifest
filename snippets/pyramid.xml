@@ -44,7 +44,6 @@
     <!-- System repositories -->
     <project path="system/core" name="system_core" remote="pyramid" />
     <project path="system/media" name="system_media" remote="pyramid" />
-    <project path="system/sepolicy" name="system_sepolicy" remote="pyramid" />
     <project path="system/security" name="system_security" remote="pyramid" /> 
     <project path="system/update_engine" name="system_update_engine" remote="pyramid" />
     <project path="system/vold" name="system_vold" remote="pyramid" />
@@ -52,10 +51,11 @@
     <project path="system/apex" name="system_apex" remote="pyramid" />
 
     <!-- SEPolicy repositories -->
-    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pyramid" />
+    <project path="system/sepolicy" name="system_sepolicy" remote="pyramid" />
     <project path="device/pyramid/sepolicy" name="device_pyramid_sepolicy" remote="pyramid" />
-    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pyramid" />
-    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="pyramid" />
+    <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,qssi" remote="pyramid" />
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,sdm660" remote="pyramid" />
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,lahaina" remote="pyramid" />
 
     <!-- Packages -->
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pyramid" />
